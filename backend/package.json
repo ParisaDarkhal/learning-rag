@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PD",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "llamaindex": "^0.2.1",
+    "path": "^0.12.7"
+  }
+}

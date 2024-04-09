@@ -64,3 +64,13 @@
     transform: rotate(360deg);
   }
 }
+
+.user {
+  background-color: gainsboro;
+  color: red;
+}
+
+.assistant {
+  background-color: antiquewhite;
+  color: green;
+}

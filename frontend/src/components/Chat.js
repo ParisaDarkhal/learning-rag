@@ -28,7 +28,6 @@ const Chat = () => {
       console.error("Error sending message: ", error);
     }
   };
-  console.log("messages :>> ", messages);
   return (
     <div>
       <div>
@@ -36,17 +35,19 @@ const Chat = () => {
           <Message key={index} message={msg} />
         ))}
       </div>
-      <input
-        type="text"
-        value={value}
-        placeholder="Type your message..."
-        onChange={(e) => setValue(e.target.value)}
-        onKeyDown={(e) => {
-          if (e.key === "Enter") {
-            sendMessage(e);
-          }
-        }}
-      />
+      <div className="input">
+        <label>Type your message here: </label>
+        <input
+          type="text"
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          onKeyDown={(e) => {
+            if (e.key === "Enter") {
+              sendMessage(e);
+            }
+          }}
+        />
+      </div>
     </div>
   );
 };

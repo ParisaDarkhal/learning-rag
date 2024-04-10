@@ -36,7 +36,7 @@ const Chat = () => {
         ))}
       </div>
       <div className="input">
-        <label>Type your message here: </label>
+        <label>Type your question here: </label>
         <input
           type="text"
           value={value}

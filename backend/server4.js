@@ -31,7 +31,7 @@ const initializeServer = async () => {
   });
   // Load our data from a local directory
   const documents = await new SimpleDirectoryReader().loadData({
-    directoryPath: "./data",
+    directoryPath: "./data3",
   });
 
   // Initialize an index

@@ -20,7 +20,7 @@ Settings.llm = ollama;
 Settings.embedModel = ollama;
 
 /////////////////////////////
-//set up a storage context
+
 const initializeServer = async () => {
   const essay = await fs.readFile("./data/neuropharmacology.pdf", "utf-8");
 
